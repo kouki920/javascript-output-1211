@@ -1,0 +1,33 @@
+#main__top {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border: 5px solid #333;
+  border-radius: 50%;
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 5px 5px 0px 0px;
+          box-shadow: 5px 5px 0px 0px;
+  background-image: url(../images/img_adae96bc0fea4096009f294f463bb6b0525286.jpg);
+  background-size: cover;
+}
+
+#main__top:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0 0 #333;
+          box-shadow: 0 0 #333;
+}
+
+#main__top #omikuzi__word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+/*# sourceMappingURL=omikuzi.css.map */
